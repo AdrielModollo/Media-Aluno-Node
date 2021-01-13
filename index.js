@@ -10,10 +10,10 @@ var media = 0;
 //Entrada de dados
 console.log("Programa que calcula a média de um aluno");
 nome = readline.question("Qual é o seu nome?: ");
-n1 = parseFloat(readline.question("Informe a primeira nota:"));
-n2 = parseFloat(readline.question("Informe a segunda nota:"));
-n3 = parseFloat(readline.question("Informe a terceira nota:"));
-n4 = parseFloat(readline.question("Informe a quarta nota:"));
+n1 = parseFloat(readline.question("Informe a primeira nota de matemática:"));
+n2 = parseFloat(readline.question("Informe a segunda nota de matemática:"));
+n3 = parseFloat(readline.question("Informe a terceira nota de matemática:"));
+n4 = parseFloat(readline.question("Informe a quarta nota de matemática:"));
 
 media = (n1+n2+n3+n4)/4;
 //teste
